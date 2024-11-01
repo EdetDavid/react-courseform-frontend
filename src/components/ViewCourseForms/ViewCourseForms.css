@@ -1,0 +1,22 @@
+/* File input styling */
+.file-input {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+  
+  /* Button alignment and spacing */
+  .d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .g-2 > .col {
+    margin-bottom: 5px;
+  }
+  
+  /* Adjust margin between the icon and text */
+  .me-2 {
+    margin-right: 0.5rem;
+  }
+  

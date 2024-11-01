@@ -1,0 +1,37 @@
+/* src/components/ViewStampedForms.css */
+.view-stamped-forms {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .view-stamped-forms h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .button-download {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-download .me-2 {
+    margin-right: 8px;
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  

@@ -1,0 +1,22 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #1f4037, #99f2c8);
+  color: white;
+}
+
+.cta-buttons .btn {
+  transition: transform 0.3s ease-in-out;
+}
+
+.cta-buttons .btn:hover {
+  transform: translateY(-5px);
+}
+
+h1, p {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
