@@ -18,7 +18,7 @@ function Profile() {
   useEffect(() => {
     const fetchDepartments = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/departments/');
+        const response = await axios.get('https://react-courseform-backend.onrender.com/api/departments/');
         setDepartments(response.data);
       } catch (error) {
         console.error('Error fetching departments:', error);
