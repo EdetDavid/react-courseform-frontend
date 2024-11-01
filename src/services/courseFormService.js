@@ -4,7 +4,7 @@ import authService from './authService';
 
 // const API_URL = 'http://localhost:8000/api/';
 
-const API_URL = 'https://react-courseform-backend.onrender.com/api/';
+const API_URL = 'https://react-courseform-backend.onrender.com/api';
 
 
 
