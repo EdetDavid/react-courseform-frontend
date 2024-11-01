@@ -1,7 +1,9 @@
 // src/services/authService.js
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/";
+// const API_URL = 'http://localhost:8000/api/';
+
+const API_URL = "https://react-courseform-backend.onrender.com/api/";
 
 const authService = {
   register: async (username, password, department, isHod) => {
